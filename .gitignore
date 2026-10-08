@@ -1,0 +1,8 @@
+config_drive.json
+*.pt
+*.zip
+.env
+__pycache__/
+/content/
+runs/
+dataset/

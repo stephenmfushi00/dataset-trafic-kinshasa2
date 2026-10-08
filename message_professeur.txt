@@ -1,0 +1,16 @@
+Bonjour Professeur,
+
+Je vous transmets les scripts et la description de ma démarche pour le mémoire portant sur la proposition et la validation d'un dataset de trafic routier adapté à Kinshasa.
+
+J'ai utilisé YOLO pour produire des pré-annotations, puis corrigé les catégories, les boîtes et les objets oubliés dans CVAT. Un premier fine-tuning a été réalisé sur 508 images validées, réparties en 346 images d'entraînement, 84 de validation et 78 de test. La séparation est faite par groupes de séquences pour limiter la proximité entre les frames des différents ensembles.
+
+J'ai ensuite corrigé un nouveau lot et effectué un deuxième fine-tuning en préservant les ensembles d'évaluation. Celui-ci progresse sur la validation, mais sa mAP50 de test diminue de 52,33 % à 48,21 %. Je conserve donc le premier modèle comme référence et j'analyse les limites, notamment la représentation des classes rares et la diversité des scènes.
+
+La démarche relève de l'annotation semi-automatique avec réentraînement supervisé itératif. Elle s'appuie notamment sur le principe présenté par Adhikari et Huttunen dans Iterative Bounding Box Annotation for Object Detection (ICPR, 2021). La validation du dataset porte sur la couverture des conditions étudiées, la qualité des annotations et son utilité expérimentale ; les performances de YOLO constituent une partie de cette validation.
+
+Le dépôt contient les scripts Python commentés et un README qui explique le protocole et les résultats. Je souhaiterais votre avis sur ce protocole et sur les contrôles complémentaires nécessaires avant la validation finale du dataset.
+
+Lien du dépôt : [à compléter après publication]
+
+Bien cordialement,
+Stephen Mfushi

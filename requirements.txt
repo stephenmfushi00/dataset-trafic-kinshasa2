@@ -1,0 +1,5 @@
+ultralytics==8.4.173
+PyYAML
+google-api-python-client
+Pillow
+# Installer PyTorch selon le GPU ; les scripts Drive utilisent google.colab.
