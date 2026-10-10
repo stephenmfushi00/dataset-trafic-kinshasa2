@@ -10,7 +10,7 @@ La démarche relève de l'annotation semi-automatique avec réentraînement supe
 
 Le dépôt contient les scripts Python commentés et un README qui explique le protocole et les résultats. Je souhaiterais votre avis sur ce protocole et sur les contrôles complémentaires nécessaires avant la validation finale du dataset.
 
-Lien du dépôt : [à compléter après publication]
+
 
 Bien cordialement,
 Stephen Mfushi
